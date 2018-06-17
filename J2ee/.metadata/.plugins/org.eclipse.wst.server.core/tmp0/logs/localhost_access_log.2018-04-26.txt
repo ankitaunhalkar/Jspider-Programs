@@ -1,0 +1,15 @@
+127.0.0.1 - - [26/Apr/2018:00:01:55 +0530] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [26/Apr/2018:00:01:58 +0530] "GET /QSHttpSessionDemo/ HTTP/1.1" 200 290
+127.0.0.1 - - [26/Apr/2018:00:02:04 +0530] "GET /QSHttpSessionDemo/login.html HTTP/1.1" 200 319
+127.0.0.1 - - [26/Apr/2018:00:02:06 +0530] "GET /QSHttpSessionDemo/LoginServlet?un=ankita&pw=ankita HTTP/1.1" 200 158
+127.0.0.1 - - [26/Apr/2018:00:02:07 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+127.0.0.1 - - [26/Apr/2018:00:02:09 +0530] "GET /QSHttpSessionDemo/LogoutServlet HTTP/1.1" 200 203
+127.0.0.1 - - [26/Apr/2018:00:02:14 +0530] "GET /QSHttpSessionDemo/LogoutServlet HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2018:00:02:31 +0530] "GET /QSHttpSessionDemo/Servlet1?name=ankita HTTP/1.1" 200 32
+127.0.0.1 - - [26/Apr/2018:00:03:52 +0530] "GET /QSHttpSessionDemo/LoginServlet?un=ankita&pw=ankita HTTP/1.1" 200 158
+127.0.0.1 - - [26/Apr/2018:00:03:54 +0530] "GET /QSHttpSessionDemo/LogoutServlet HTTP/1.1" 200 203
+127.0.0.1 - - [26/Apr/2018:00:03:56 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+127.0.0.1 - - [26/Apr/2018:00:09:23 +0530] "GET /QSHttpSessionDemo/LogoutServlet HTTP/1.1" 200 -
+127.0.0.1 - - [26/Apr/2018:00:09:32 +0530] "GET /QSHttpSessionDemo/LoginServlet?un=ankita&pw=ankita HTTP/1.1" 200 158
+127.0.0.1 - - [26/Apr/2018:00:09:34 +0530] "GET /QSHttpSessionDemo/LogoutServlet HTTP/1.1" 200 201
+127.0.0.1 - - [26/Apr/2018:00:09:36 +0530] "GET /QSHttpSessionDemo/LogoutServlet HTTP/1.1" 200 -

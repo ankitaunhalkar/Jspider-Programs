@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="<%request.getContextPath();%>design.css"/>
+<title>Visa PIS</title>
+</head>
+<body>
+<header>
+<img src="airplane-take-off.png" height="150" width="150">
+<h1>VISA INFORMATION PROCESSING SYSTEM</h1>
+</header>
+<div> 
+<form action="" method="post">
+<table align="left"><tr>
+<td>Username:</td>
+<td><input type="text" name="username"></td></tr><tr>
+<td>Password:</td>
+<td><input type="password" name="password"></td></tr><tr>
+<td><input type="submit" value="Submit"></td>
+<td><select name="logintype">
+<option>Administrator</option>
+<option>Agent</option>
+<option>Customer</option>
+</select>
+ </tr>
+ </table>
+</form>
+</div>
+<footer>Copyright &copy; Februray 2018</footer>
+</body>
+</html>
+
+</html>

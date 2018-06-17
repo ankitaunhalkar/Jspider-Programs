@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>QSServlet</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+ 
+  <servlet>
+  <servlet-name>e1</servlet-name>
+  <servlet-class>com.ankita.EServletController</servlet-class>
+  <init-param>
+  <param-name>el</param-name>
+  <param-value>20% off on electronics</param-value>
+  </init-param>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>e1</servlet-name>
+  <url-pattern>/EServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>c1</servlet-name>
+  <servlet-class>com.ankita.CServletController</servlet-class>
+  <init-param>
+  <param-name>cl</param-name>
+  <param-value>15% off on clothes</param-value>
+  </init-param>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>c1</servlet-name>
+  <url-pattern>/CServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>h1</servlet-name>
+  <servlet-class>com.ankita.HServletController</servlet-class>  
+  <init-param>
+  <param-name>hl</param-name>
+  <param-value>25% off on Home Appliances</param-value>
+  </init-param>  
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>h1</servlet-name>
+  <url-pattern>/HServlet</url-pattern>
+  </servlet-mapping>
+  
+  <context-param>
+  <param-name>ec</param-name>
+  <param-value>New Year Offer!</param-value>
+  </context-param>
+</web-app>

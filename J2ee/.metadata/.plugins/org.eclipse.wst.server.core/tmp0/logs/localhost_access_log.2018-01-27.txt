@@ -1,0 +1,8 @@
+127.0.0.1 - - [27/Jan/2018:10:51:37 +0530] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [27/Jan/2018:10:51:38 +0530] "GET /QSProject/StudentLogin HTTP/1.1" 405 1108
+127.0.0.1 - - [27/Jan/2018:10:51:38 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+127.0.0.1 - - [27/Jan/2018:10:51:48 +0530] "GET /QSProject/index.html HTTP/1.1" 304 -
+127.0.0.1 - - [27/Jan/2018:10:51:48 +0530] "GET /QSProject/full01.jpg HTTP/1.1" 404 1034
+127.0.0.1 - - [27/Jan/2018:10:53:57 +0530] "POST /QSProject/StudentLogin HTTP/1.1" 200 28
+127.0.0.1 - - [27/Jan/2018:10:54:03 +0530] "POST /QSProject/AdminLogin HTTP/1.1" 200 26
+127.0.0.1 - - [27/Jan/2018:10:54:49 +0530] "GET /QSProject/register.html HTTP/1.1" 304 -

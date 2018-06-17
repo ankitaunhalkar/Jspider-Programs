@@ -1,0 +1,5 @@
+127.0.0.1 - - [08/Mar/2018:11:24:20 +0530] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [08/Mar/2018:11:24:24 +0530] "GET /SpringProject/WEB-INF/classes/com/jspider/project/ControllerDemo.java HTTP/1.1" 404 992
+127.0.0.1 - - [08/Mar/2018:11:26:08 +0530] "GET /SpringProject/ HTTP/1.1" 200 521
+127.0.0.1 - - [08/Mar/2018:11:26:31 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+127.0.0.1 - - [08/Mar/2018:11:26:32 +0530] "GET /SpringProject/Verify?name=ankita&pass=ankita&submit=Submit HTTP/1.1" 200 284

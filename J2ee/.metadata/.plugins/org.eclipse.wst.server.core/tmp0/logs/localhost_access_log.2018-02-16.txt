@@ -1,0 +1,10 @@
+127.0.0.1 - - [16/Feb/2018:12:08:10 +0530] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [16/Feb/2018:12:08:22 +0530] "GET /PinnacleNew/register.jsp HTTP/1.1" 200 1321
+127.0.0.1 - - [16/Feb/2018:12:08:25 +0530] "POST /PinnacleNew/ViewController HTTP/1.1" 302 -
+127.0.0.1 - - [16/Feb/2018:12:08:26 +0530] "GET /PinnacleNew/Display.jsp HTTP/1.1" 200 3795
+127.0.0.1 - - [16/Feb/2018:12:08:26 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+127.0.0.1 - - [16/Feb/2018:12:11:37 +0530] "POST /PinnacleNew/SearchController HTTP/1.1" 200 642
+127.0.0.1 - - [16/Feb/2018:12:11:48 +0530] "POST /PinnacleNew/SearchController HTTP/1.1" 200 80
+127.0.0.1 - - [16/Feb/2018:12:11:53 +0530] "POST /PinnacleNew/SearchController HTTP/1.1" 200 635
+127.0.0.1 - - [16/Feb/2018:12:12:04 +0530] "POST /PinnacleNew/ViewController HTTP/1.1" 302 -
+127.0.0.1 - - [16/Feb/2018:12:12:04 +0530] "GET /PinnacleNew/Display.jsp HTTP/1.1" 200 3795

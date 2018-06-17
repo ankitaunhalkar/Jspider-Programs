@@ -1,0 +1,6 @@
+127.0.0.1 - - [22/May/2018:22:32:07 +0530] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [22/May/2018:22:32:46 +0530] "GET /QSAttributeDemo/ HTTP/1.1" 200 308
+127.0.0.1 - - [22/May/2018:22:33:26 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+127.0.0.1 - - [22/May/2018:22:33:30 +0530] "POST /QSAttributeDemo/LoginController HTTP/1.1" 200 81
+127.0.0.1 - - [22/May/2018:22:33:30 +0530] "POST /QSAttributeDemo/LoginController HTTP/1.1" 200 81
+127.0.0.1 - - [22/May/2018:22:33:42 +0530] "GET /QSAttributeDemo/ProfileController HTTP/1.1" 405 1108

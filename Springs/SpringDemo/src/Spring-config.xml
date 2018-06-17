@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+<!-- For normal creation of object -->
+<!-- <bean class="SpringDI.Engine"/>
+<bean class="SpringDI.Car"/> -->
+
+<!-- Using Getter Setter internal -->
+<!-- <bean id="e" class="SpringDI.Engine"/>
+<bean class="SpringDI.Car" autowire="byType"/> -->
+
+<!-- Initializing data member using property tag  -->
+<!-- <bean class="AssignProperty.Address" id="address">
+<property name="location" value="Mumbai"></property>
+</bean>
+
+<bean class="AssignProperty.Student"> 
+<property name="id" value="123"></property>
+<property name="name" value="ankita"></property>
+<property name="a" ref="address"></property>
+</bean> -->
+
+<!-- Initializing Using Constructor -->
+<!-- <bean class="AssignProperty.Address" id="address">
+<property name="location" value="Mumbai"></property>
+</bean>
+
+<bean class="AssignProperty.Student">
+<constructor-arg value="123"></constructor-arg>
+<constructor-arg value="Ankita"></constructor-arg>
+<constructor-arg>
+<ref bean="address"/>
+</constructor-arg>-->
+
+<!-- Multiple Object Creation using Scope -->
+<!-- <bean class="AssignProperty.Address" id="address">
+<property name="location" value="Mumbai"></property>
+</bean> 
+
+<bean class="AssignProperty.Student" scope="prototype">
+<constructor-arg value="123"></constructor-arg>
+<constructor-arg value="Ankita"></constructor-arg>
+<constructor-arg>
+<ref bean="address"/>
+</constructor-arg>
+</bean> -->
+
+ <!-- Autowire Injecting Automatically (byName) -->
+<!-- <bean class="AssignProperty.Address" id="a">
+<property name="location" value="Mumbai"></property>
+</bean> 
+<bean class="AssignProperty.Student" autowire="byName"></bean>
+</beans> -->
+
+<!-- Autowire Injecting Automatically (byType) -->
+<!-- <bean class="AssignProperty.Address" id="address">
+<property name="location" value="Mumbai"></property>
+</bean> 
+<bean class="AssignProperty.Student" autowire="byType"></bean> -->
+
+
+<!-- Autowire Injecting Automatically (constructor) -->
+<bean class="AssignProperty.Address" id="address">
+<property name="location" value="Mumbai"></property>
+</bean> 
+<bean class="AssignProperty.Student" autowire="constructor"></bean>
+</beans>

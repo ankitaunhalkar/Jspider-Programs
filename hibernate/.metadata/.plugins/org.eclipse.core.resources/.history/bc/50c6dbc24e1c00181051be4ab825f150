@@ -1,0 +1,50 @@
+package com.js;
+
+import java.util.List;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
+import javax.persistence.Table;
+
+import org.hibernate.annotations.GenericGenerator;
+
+@Entity
+@Table
+public class StudDTO {
+	@Id
+	@GeneratedValue(generator="auto")
+	@GenericGenerator(name="auto",  strategy = "increment")
+	
+	
+	@Column private int sid;
+	@Column	private String sname;
+	private List<FacDTO> slist;
+	@ManyToMany(cascade=CascadeType.ALL)
+	@JoinTable(name="stu_fac",joinColumns=@JoinColumn(name="sid"),inverseJoinColumns=@JoinColumn(name="fid"))
+	
+	
+	public int getSid() {
+		return sid;
+	}
+	public void setSid(int sid) {
+		this.sid = sid;
+	}
+	public String getSname() {
+		return sname;
+	}
+	public void setSname(String sname) {
+		this.sname = sname;
+	}
+	public List<FacDTO> getSlist() {
+		return slist;
+	}
+	public void setSlist(List<FacDTO> slist) {
+		this.slist = slist;
+	}
+}
